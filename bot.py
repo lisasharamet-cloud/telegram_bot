@@ -1,7 +1,9 @@
 import asyncio
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command 
+import os
 
+TOKEN = os.getenv("8119552777:AAFNDZI9L_otshwsFWYJICDUKBT8HJ1Idi0") 
 # --- настройки ---
 API_TOKEN = "8119552777:AAFNDZI9L_otshwsFWYJICDUKBT8HJ1Idi0"   # вставь токен из @BotFather
 ADMIN_ID = 1032077865       # твой user_id из @userinfobot
@@ -43,6 +45,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
